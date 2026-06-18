@@ -15,7 +15,7 @@ export default function Home() {
     }
   }, [darkMode]);
 
-  const t = portfolioData[lang];
+ const t = (portfolioData as any)[lang];
 
   return (
     <div className="min-h-screen font-sans bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300">
