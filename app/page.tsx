@@ -100,7 +100,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 gap-8">
-            {t.projects.items.map((project, index) => (
+            {t.projects.items.map((project: any, index: any) => (
               <div
                 key={index}
                 className="rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm hover:shadow-lg transition-all overflow-hidden"
